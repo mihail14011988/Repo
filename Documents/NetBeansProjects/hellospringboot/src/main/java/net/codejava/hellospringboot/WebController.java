@@ -19,7 +19,7 @@ public class WebController {
     public String hello(Model model){
         System.out.println("Olllaaalllla");
         model.addAttribute("message","welcome StringBoot Netbeans");
-        System.out.println("Привет");
+       
     return "hello";
     }
 }
